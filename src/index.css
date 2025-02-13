@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Vazirmatn";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/vazirmatn/v13/Dxxo8j6PP2D_kU2muijlGMWWMmk.woff2)
+    format("woff2");
+}
+
+* {
+  font-family: Vazirmatn, sans-serif;
+  font-weight: 400;
+}
+
+body {
+  direction: rtl;
+  background-color: black;
+}
+
+input {
+  @apply p-2 text-white bg-stone-800 outline-none border-white/20 border-2 rounded-md;
+}
