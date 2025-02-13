@@ -28,12 +28,12 @@ const DigitalPostcard = () => {
         className="aspect-[16/9] bg-center bg-no-repeat w-full h-auto bg-cover text-white relative"
       >
         {/* متن اول (message) */}
-        <p className="absolute top-[30%] right-[6%] max-w-[40%] text-xs md:text-base lg:text-lg font-medium line-clamp-3">
+        <p className="absolute top-[30%] right-[6%] max-w-[40%] text-[0.7rem] md:text-[1.025rem] lg:text-1.150rem] line-clamp-3">
           {message}
         </p>
 
         {/* متن دوم (name) */}
-        <p className="absolute font-light bottom-[10%] right-[20%] w-[80%] text-xs md:text-sm lg:text-base line-clamp-1 max-w-[30%]">
+        <p className="absolute font-light bottom-[10%] right-[20%] w-[80%] text-[0.55rem] md:text-[0.825rem] lg:text-[0.950rem] line-clamp-1 max-w-[30%]">
           {name}
         </p>
       </div>
